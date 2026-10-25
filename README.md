@@ -1,44 +1,32 @@
 # Stackdump
 
-Hi, I'm Matt York — engineer, blockchain researcher, and creator of [pflow.xyz](https://pflow.xyz), a Petri net toolkit for modeling complex systems.
+Hi, I'm Matt York — a programmer first, math hobbyist second. By day I build blockchain transaction ingestion and agentic tooling for protocol integrations at [Anchorage Digital](https://www.anchorage.com). By night I've spent about a decade on **pflow**: treating Petri nets as a universal intermediate representation for event-driven systems.
 
 ![Matt York - profile](./profile.jpg)
 
 ## What I'm Building
 
-[**pflow**](https://github.com/pflow-xyz) — an ecosystem of tools that treat Petri nets as a universal abstraction for state machines, workflows, and verifiable computation.
-
 | Project | What it does |
 |---------|-------------|
-| [pflow-xyz](https://github.com/pflow-xyz/pflow-xyz) | Browser-based visual editor and ODE simulator |
-| [go-pflow](https://github.com/pflow-xyz/go-pflow) | Go library — modeling, simulation, process mining, ZK proofs |
-| [petri-pilot](https://github.com/pflow-xyz/petri-pilot) | MCP server for AI-assisted design and deterministic full-stack codegen |
-| [pflow-jl](https://github.com/pflow-xyz/pflow-jl) | Julia framework for Petri net visualization and analysis |
+| [sim-pflow.xyz](https://sim-pflow.xyz) | Auto-formalizer — informal spec in, executable model out, with a proof and a fidelity verdict. Also an MCP server, so LLMs can show their work in a format you can inspect. |
+| [beats.bitwrap.io](https://beats.bitwrap.io) | Generative music running on Petri net execution — Euclidean rhythms, Markov chains, content-addressed tracks you can share by CID |
+| [dj.bitwrap.io](https://dj.bitwrap.io) | Native macOS DJ app built on the beats engine |
+| [pflow.xyz](https://pflow.xyz) | Browser-based visual editor, ODE simulator, and JSON-LD schema endpoint |
+| [go-pflow](https://github.com/pflow-xyz/go-pflow) · [pflow-rs](https://github.com/pflow-xyz/pflow-rs) | Core libraries — modeling, simulation, process mining, ZK proofs |
+| [petri-pilot](https://github.com/pflow-xyz/petri-pilot) | MCP server for conversational modeling and deterministic full-stack codegen |
 
-**Try it:** [18 interactive demos](https://pilot.pflow.xyz) — games, workflows, scientific models, and more.
+## The Ideas
 
-## How It Works
+- **The model is the explanation.** A ledger already *is* a Petri net — double-entry bookkeeping is token conservation. Make the structure explicit and correctness becomes something that can't be otherwise, not something you check.
+- **Three independent witnesses.** The same net is checked in Lean, proven in Groth16 ZK circuits, and run as an ODE simulation. When all three agree, that's structural evidence, not a test pass.
+- **Past-tense computation.** The tropical (max-plus) semiring summarizes what has fired; predicates constrain what can fire next; the current marking is the boundary between them.
+- **Models over prose.** LLMs are good at extracting the latent structure of a system from plain language. Landing that structure in a simulatable model makes their contribution auditable.
 
-A Petri net model defines places (states), transitions (actions), and arcs (connections). From that single JSON-LD file:
-
-- **go-pflow** simulates it — discrete-event, continuous-time ODE, or ZK proof generation
-- **petri-pilot** generates a full-stack app — Go backend, ES modules frontend, GraphQL API
-- **pflow-xyz** lets you build and edit it visually in the browser
-
-The LLM designs models. Templates produce apps. No LLM-generated code in the output.
-
-## Mission
-
-Petri nets provide **transparent, deterministic logic** — the model itself is the explanation. I'm working to make them practical and accessible through open tools, minimal dependencies, and visual interfaces.
-
-- Vanilla JS/ES modules, Go backends, SQLite — no framework bloat
-- Dual execution (Go + JS) for verifiable correctness
-- Content-addressed storage (IPFS CIDv1) for immutable models
-- ZK proofs for trustless state transition verification
+Long form: [*Petri Nets as a Universal Abstraction*](https://book.pflow.xyz) — 18 chapters, from first principles through ZK verification.
 
 ## Links
 
-- **Visual Editor**: [pflow.xyz](https://pflow.xyz)
-- **Interactive Demos**: [pilot.pflow.xyz](https://pilot.pflow.xyz)
 - **Blog**: [blog.stackdump.com](https://blog.stackdump.com)
+- **Book**: [book.pflow.xyz](https://book.pflow.xyz)
+- **Editor**: [pflow.xyz](https://pflow.xyz)
 - **Organization**: [github.com/pflow-xyz](https://github.com/pflow-xyz)
