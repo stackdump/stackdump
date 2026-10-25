@@ -12,6 +12,7 @@ Hi, I'm Matt York — a programmer first, math hobbyist second. By day I build b
 | [beats.bitwrap.io](https://beats.bitwrap.io) | Generative music running on Petri net execution — Euclidean rhythms, Markov chains, content-addressed tracks you can share by CID |
 | [dj.bitwrap.io](https://dj.bitwrap.io) | Native macOS DJ app built on the beats engine |
 | [pflow.xyz](https://pflow.xyz) | Browser-based visual editor, ODE simulator, and JSON-LD schema endpoint |
+| [pflow native](https://github.com/pflow-xyz/pflow-native) | Native desktop editor built on pflow-rs — model, simulate, and visualize nets offline |
 | [go-pflow](https://github.com/pflow-xyz/go-pflow) · [pflow-rs](https://github.com/pflow-xyz/pflow-rs) | Core libraries — modeling, simulation, process mining, ZK proofs |
 
 ## The Ideas
