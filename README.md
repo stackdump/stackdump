@@ -8,7 +8,7 @@ Hi, I'm Matt York — a programmer first, math hobbyist second. By day I build b
 
 | Project | What it does |
 |---------|-------------|
-| [sim-pflow.xyz](https://sim-pflow.xyz) | Auto-formalizer — informal spec in, executable model out, with a proof and a fidelity verdict. Also an MCP server, so LLMs can show their work in a format you can inspect. |
+| [sim.pflow.xyz](https://sim.pflow.xyz) | Auto-formalizer — informal spec in, executable model out, with a proof and a fidelity verdict. Also an MCP server, so LLMs can show their work in a format you can inspect. |
 | [beats.bitwrap.io](https://beats.bitwrap.io) | Generative music running on Petri net execution — Euclidean rhythms, Markov chains, content-addressed tracks you can share by CID |
 | [dj.bitwrap.io](https://dj.bitwrap.io) | Native macOS DJ app built on the beats engine |
 | [pflow.xyz](https://pflow.xyz) | Browser-based visual editor, ODE simulator, and JSON-LD schema endpoint |
