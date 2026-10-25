@@ -13,7 +13,6 @@ Hi, I'm Matt York — a programmer first, math hobbyist second. By day I build b
 | [dj.bitwrap.io](https://dj.bitwrap.io) | Native macOS DJ app built on the beats engine |
 | [pflow.xyz](https://pflow.xyz) | Browser-based visual editor, ODE simulator, and JSON-LD schema endpoint |
 | [go-pflow](https://github.com/pflow-xyz/go-pflow) · [pflow-rs](https://github.com/pflow-xyz/pflow-rs) | Core libraries — modeling, simulation, process mining, ZK proofs |
-| [petri-pilot](https://github.com/pflow-xyz/petri-pilot) | MCP server for conversational modeling and deterministic full-stack codegen |
 
 ## The Ideas
 
